@@ -1,7 +1,7 @@
 :root {
-  --primary-text-color: rgba(0, 0, 0, 0.8);
-  --title-text-color: #000000;
-  --accent-color: #18a0fb;
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
   --primary-white-color: #ffffff;
 }
 
@@ -9,3 +9,116 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
+
+/* Logo */
+.header .web {
+  color: var(--accent-color);
+}
+.header .studio {
+  color: #000000;
+}
+
+/* Menu nav */
+
+.studio {
+  color: var(--title-text-color);
+}
+
+.studio:hover,
+.studio:focus {
+  color: var(--accent-color);
+}
+
+.nav-list {
+  color: var(--title-text-color);
+}
+
+/* Contacts nav */
+
+.email {
+  color: var(--title-text-color);
+}
+
+.email:hover,
+.email:focus {
+  color: var(--accent-color);
+}
+
+.phone {
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+/* Heading */
+.heading-title {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+/* Section */
+.section-title {
+  color: var(--title-text-color);
+}
+
+/* Features */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+
+/* What we do */
+
+/* Our team */
+
+.team-list .title {
+  color: var(--title-text-color);
+}
+
+/* Footer */
+
+.footer {
+  background-color: #2f303a;
+}
+.footer .web {
+  color: var(--accent-color);
+}
+.footer .studio {
+  color: #ffffff;
+}
+
+.address {
+  color: #ffffff;
+}
+
+.footer .email {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Button */
+
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.button.primary{
+  color:var(--primary-white-color: #ffffff;)
+  background-color: var(--accent-color)
+}
+
+
+/* main color text #212121 */
+/* second color #757575 */
+/* logo header  color  #2196F3 #000000*/
+/* studio and email  color #2196F3 */
+/* Logo footer color #2196F3 #FFFFFF */
+/* adress color #FFFFFF */
+/* email color  rgba(255, 255, 255, 0.6) */
+/* phone color  rgba(255, 255, 255, 0.6) */
+/* accent color #FFFFFF background: #2196F3 */

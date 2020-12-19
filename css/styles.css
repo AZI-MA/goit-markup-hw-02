@@ -5,38 +5,39 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --secondary-text-color: rgba(255, 255, 255, 0.6);
+  --secondary-background-color: #f5f4fa;
+  --tertiary-background-color: #2f303a;
 }
 
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 
-  font-family:Roboto, sans-serif;
-  font-weight:400;
-  letter-spacing:0.03em;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.71;
 }
 
-  /* Logo */
+/* Logo */
 
-.web {
-  color: var(--accent-color);
-}
 .header-studio {
   color: #000000;
 }
-.logo{
-  font-family: Raleway,sans-serif;
-  font-weight:700;
+.logo {
+  color: var(--accent-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 /* Menu nav */
 
-.menu-nav .link{
+.menu-nav .link {
   color: var(--title-text-color);
 }
 
@@ -45,25 +46,24 @@ body {
   color: var(--accent-color);
 }
 
-.menu-nav .link.current{
-  color:var(--accent-color)
+.menu-nav .link.current {
+  color: var(--accent-color);
 }
 
 .menu-nav .link,
-.contacts-nav .link{
-  font-style:medium;
-  font-weight:500;
-  line-height:1.14;
+.contacts-nav .link {
+  font-style: medium;
+  font-weight: 500;
+  line-height: 1.14;
   letter-spacing: 0.02em;
-  text-decoration:none;
+  text-decoration: none;
 }
-
 
 /* Contacts nav */
 
-.email{
-  color: var(--title-text-color);
-  text-decoration:none;
+.email {
+  color: var(--primary-text-color);
+  text-decoration: none;
 }
 .email:hover,
 .email:focus {
@@ -72,63 +72,69 @@ body {
 
 .phone {
   color: var(--primary-text-color);
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .list {
   list-style: none;
 }
 
-
 /* Footer */
 
 .footer {
-  background-color: #2f303a;
+  background-color: var(--tertiary-background-color);
 }
 
 .footer-studio {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 .address {
-  color: #ffffff;
-  font-style:normal;
+  color: var(--primary-white-color);
+  font-style: normal;
 }
 
-.contacts{
- color: rgba(255, 255, 255, 0.6); 
+.contacts {
+  color: var(--secondary-text-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+  color: var(--accent-color);
 }
 
 /* Button */
 
 .button {
-  color:var(--title-text-color);
-  background-color: var(--accent-color)
-  
-  font-family:inherit;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
 }
 
-.button.primary{
-  color:var(--primary-white-color);
+.button.primary {
+  color: var(--primary-white-color);
   background-color: var(--accent-color);
+
+  font-weight: 700;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
 
-.button.secondary{
+.button.secondary {
   color: var(--title-text-color);
-  background-color: #F5F4FA;
-
+  background-color: var(--secondary-background-color);
 }
-
 
 /* Styles for index.html */
 
 /* Heading */
 .heading-title {
-  color: #ffffff;
-  background-color: #2f303a;
+  color: var(--primary-white-color);
+  background-color: var(--tertiary-background-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -145,26 +151,23 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  }
+}
 
 /* Features */
 .feature-list .title {
   color: var(--title-text-color);
 
-  font-weight:700;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
-  text-transform: uppercase;
-
 }
 
 /* What we do */
 
-
-
 /* Our team */
 
-.section-team{
-  background-color:#F5F4FA;
+.section-team {
+  background-color: var(--secondary-background-color);
 }
 
 .team-list .title {
@@ -175,11 +178,23 @@ body {
   line-height: 1.19;
 }
 
-.team-list .text{
-font-size: 16px;
-line-height: 1.19;
+.team-list .text {
+  font-size: 16px;
+  line-height: 1.19;
 }
 
-
-
 /* Styles for portfolio.html */
+
+.projects-title {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.projects-text {
+  font-size: 16px;
+  line-height: 1.88;
+}

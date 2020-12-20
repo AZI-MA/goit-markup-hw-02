@@ -61,18 +61,13 @@ body {
 
 /* Contacts nav */
 
-.email {
+.contacts-nav .link {
   color: var(--primary-text-color);
-  text-decoration: none;
-}
-.email:hover,
-.email:focus {
-  color: var(--accent-color);
 }
 
-.phone {
-  color: var(--primary-text-color);
-  text-decoration: none;
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
 }
 
 .list {
@@ -96,6 +91,7 @@ body {
 
 .contacts {
   color: var(--secondary-text-color);
+  text-decoration: none;
 }
 
 .contacts:hover,
@@ -127,6 +123,12 @@ body {
 .button.secondary {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 
 /* Styles for index.html */
@@ -195,6 +197,12 @@ body {
 }
 
 .projects-text {
+  color: var(--primary-text-color);
+
   font-size: 16px;
   line-height: 1.88;
+}
+
+.links {
+  text-decoration: none;
 }

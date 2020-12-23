@@ -8,6 +8,7 @@
   --secondary-text-color: rgba(255, 255, 255, 0.6);
   --secondary-background-color: #f5f4fa;
   --tertiary-background-color: #2f303a;
+  --tertiary-text-color: #000000;
 }
 
 body {
@@ -24,8 +25,9 @@ body {
 /* Logo */
 
 .header-studio {
-  color: #000000;
+  color: var(--tertiary-text-color);
 }
+
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
